@@ -22,6 +22,6 @@ public class TestRunner {
         Reporter.loadXMLConfig(new File("extent-config.xml"));
         Reporter.setSystemInfo("user", System.getProperty("user.name"));
         Reporter.setSystemInfo("os", System.getProperty("os.name"));
-        Reporter.setTestRunnerOutput("Sample test runner output message");
+        Reporter.setTestRunnerOutput("This is Sample test runner output message");
     }
 }
