@@ -21,7 +21,7 @@ public class TestRunner {
     public static void teardown() {
         Reporter.loadXMLConfig(new File("extent-config.xml"));
         Reporter.setSystemInfo("user", System.getProperty("user.name"));
-        Reporter.setSystemInfo("os", "Mac OSX");
+        Reporter.setSystemInfo("os", System.getProperty("os.name"));
         Reporter.setTestRunnerOutput("Sample test runner output message");
     }
 }
