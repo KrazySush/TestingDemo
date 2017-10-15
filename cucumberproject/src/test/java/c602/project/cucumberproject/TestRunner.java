@@ -19,7 +19,7 @@ import cucumber.api.junit.Cucumber;
 public class TestRunner {
 	@AfterClass
     public static void teardown() {
-        Reporter.loadXMLConfig(new File("G:\\Automation\\extentreports-java-2.41.2\\extent-config.xml"));
+        Reporter.loadXMLConfig(new File("extent-config.xml"));
         Reporter.setSystemInfo("user", System.getProperty("user.name"));
         Reporter.setSystemInfo("os", "Mac OSX");
         Reporter.setTestRunnerOutput("Sample test runner output message");
